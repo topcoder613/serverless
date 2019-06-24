@@ -34,9 +34,12 @@ Examples:
 
 ## Todos:
 
-- [ ] Write tests
+_Note: Run `npm run test-ci` to run all validation checks on proposed changes_
+
+- [ ] Write tests and confirm existing functionality is not broken - validate via `npm test`
 - [ ] Write documentation
-- [ ] Fix linting errors
+- [ ] Ensure there are no lint errrs - validate via `npm run lint-updated`
+- [ ] Ensure introduced changes match Prettier formatting - validate via `npm run prettier-check-updated`
 - [ ] Make sure code coverage hasn't dropped
 - [ ] Provide verification config / commands / resources
 - [ ] Enable "Allow edits from maintainers" for this PR
